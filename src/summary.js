@@ -18,10 +18,10 @@ function Summary(){
     <div className="well" style={{marginTop: '40px', padding: '20px 40px', backgroundColor: '#f9f9f9', border: '1px solid #e0e0e0'}}>
         <h3 style={{color: '#333', marginBottom: '25px'}}>Customer Clusters</h3>
         <ul className="unstyled">
-            <li style={{marginBottom: '10px'}}><strong>Cluster 1:</strong> Customers in this cluster have low cash advance and low one-off purchases</li>
-            <li style={{marginBottom: '10px'}}><strong>Cluster 2:</strong> Customers in this cluster have moderate cash advance and high one-off purchases</li>
-            <li style={{marginBottom: '10px'}}><strong>Cluster 3:</strong> Customers in this cluster have high cash advance and low one-off purchases</li>
-            <li><strong>Cluster 4:</strong> Customers in this cluster have low cash advance and moderate one-off purchases</li>
+            <li style={{marginBottom: '10px'}}><strong>Cluster 0:</strong> Customers in this cluster have low cash advance and low one-off purchases</li>
+            <li style={{marginBottom: '10px'}}><strong>Cluster 1:</strong> Customers in this cluster have moderate cash advance and high one-off purchases</li>
+            <li style={{marginBottom: '10px'}}><strong>Cluster 2:</strong> Customers in this cluster have high cash advance and low one-off purchases</li>
+            <li><strong>Cluster 3:</strong> Customers in this cluster have low cash advance and moderate one-off purchases</li>
         </ul>
     </div>
 </div>
