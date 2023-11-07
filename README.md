@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# AI based Customer Profiling
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project is aimed at creating a customer profiling system using AI and machine learning techniques. It provides a web-based interface for communication between the user and the AI models. The system is built using React for the frontend and Flask for the backend. The main AI models are contained in the `AI based Customer Profiling.ipynb` Python script.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- User-friendly web interface for interacting with the AI-based customer profiling system.
+- Utilizes various AI models for customer segmentation, classification, and profiling.
+- Easily extendable to incorporate additional AI models and features.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Repository Structure
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- `models`: Contains AI models used for customer profiling.
+- `node_modules`: Required Node.js packages for the React frontend.
+- `public`: Static files for the React app.
+- `src`: Contains the Flask backend code in `app.py`.
+- `AI based Customer Profiling.ipynb`: Jupyter Notebook containing the main AI models.
+- `README.md`: The file you're currently reading.
+- `package-lock.json` and `package.json`: Node.js package files.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+1. Clone the repository:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/FendiYassine/AI-based-Customer-Profiling.git
+   cd AI-based-Customer-Profiling
+   
+2.Install the required dependencies for both the frontend and backend:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    cd src
+    pip install -r requirements.txt
+    cd ..
+    npm install
+  
+3.Start the Flask server and React development server:
 
-### `npm run eject`
+    ```bash
+    cd src
+    python app.py
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. In a separate terminal window:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+      ```bash
+      npm run start
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
+-Access the web application by following the "Getting Started" instructions.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-Interact with the AI-based customer profiling system through the web interface.
 
-### Code Splitting
+-Explore and modify the AI models in the "AI based Customer Profiling.ipynb" Jupyter Notebook.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributing
 
-### Analyzing the Bundle Size
+Contributions to this project are welcome. If you have ideas for improvements or would like to contribute code, please follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1.Fork the repository on GitHub.
 
-### Making a Progressive Web App
+2.Clone your forked repository locally.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3.Create a new branch for your feature or bug fix.
 
-### Advanced Configuration
+4.Make your changes and commit them.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+5.Push your changes to your fork on GitHub.
 
-### Deployment
+6.Create a pull request to the original repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Licence
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-### `npm run build` fails to minify
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Author: Yassine Fendi
+
+GitHub: @FendiYassine
+
+e-mail:yassine.fendi@insat.ucar.tn
+
+Feel free to reach out if you have any questions or feedback about the project.
